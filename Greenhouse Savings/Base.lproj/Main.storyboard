@@ -4,7 +4,6 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -25,11 +24,12 @@
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dpc-cm-Qcz">
                                 <rect key="frame" x="54" y="503" width="305" height="65"/>
+                                <color key="backgroundColor" red="0.58553677800000004" green="0.72138565779999997" blue="0.82296025750000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="305" id="1TT-uI-uhW"/>
                                     <constraint firstAttribute="height" constant="65" id="SPb-vN-eDD"/>
                                 </constraints>
-                                <color key="tintColor" red="0.61176472900000001" green="0.71764707569999997" blue="0.81176471709999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.52270882985420453" green="0.64698309420462341" blue="0.74016131776751892" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled">
                                     <attributedString key="attributedTitle">
@@ -48,11 +48,12 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zZN-k8-p7Z">
                                 <rect key="frame" x="54" y="618" width="305" height="65"/>
+                                <color key="backgroundColor" red="0.58697831629999997" green="0.77263361220000004" blue="0.68683648109999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="305" id="Mdr-PW-iqz"/>
                                     <constraint firstAttribute="height" constant="65" id="lUY-y1-qVe"/>
                                 </constraints>
-                                <color key="tintColor" red="0.75294119120000003" green="0.87450981139999995" blue="0.83137255909999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.52616115316368017" green="0.69336153280855428" blue="0.61933342210700515" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled">
                                     <attributedString key="attributedTitle">
@@ -94,14 +95,58 @@
                     <view key="view" contentMode="scaleToFill" id="Cuj-0U-g3T">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hSR-UO-iRf">
+                                <rect key="frame" x="41" y="292" width="332" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.61176472900000001" green="0.71764707569999997" blue="0.81176471709999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Fast Fashion">
+                                            <attributes>
+                                                <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <font key="NSFont" size="30" name="STHeitiSC-Light"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vf8-Nb-RfB">
+                                <rect key="frame" x="41" y="487" width="332" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.61176472900000001" green="0.71764707569999997" blue="0.81176471709999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Health + Wellness">
+                                            <attributes>
+                                                <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <font key="NSFont" size="30" name="STHeitiSC-Light"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                            </button>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mKW-nC-8Dq">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Learn More" id="qLA-hC-hhM">
+                                        <barButtonItem key="backBarButtonItem" title="&lt;" id="azw-AR-nZC"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="5pI-SG-hSj"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.52498155830000004" green="0.60752159360000002" blue="0.78589695690000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="qLA-hC-hhM"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oCE-UJ-x87" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="19" y="751"/>
+            <point key="canvasLocation" x="18.840579710144929" y="750.66964285714278"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="zCH-af-SEH">
@@ -111,7 +156,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="12N-f2-ryT"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.7529790998" green="0.87455660099999999" blue="0.82560390230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="Ckh-gl-pXP"/>
                 </viewController>
@@ -122,8 +167,5 @@
     </scenes>
     <resources>
         <image name="GHS final logo" width="1710" height="1710"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
     </resources>
 </document>
