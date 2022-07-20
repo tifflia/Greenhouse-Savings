@@ -12,7 +12,7 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Greenhouse_Savings" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GHS final logo" translatesAutoresizingMaskIntoConstraints="NO" id="3D5-bL-x6c">
@@ -83,6 +83,7 @@
                             <constraint firstItem="Dpc-cm-Qcz" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="tXI-cE-gg0"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="zXr-lq-n6j"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -136,6 +137,11 @@
                                 <items>
                                     <navigationItem title="Learn More" id="qLA-hC-hhM">
                                         <barButtonItem key="backBarButtonItem" title="&lt;" id="azw-AR-nZC"/>
+                                        <barButtonItem key="rightBarButtonItem" title="home" id="oZq-lL-NwY">
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="show" id="tcw-eU-WCh"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -143,6 +149,7 @@
                         <viewLayoutGuide key="safeArea" id="5pI-SG-hSj"/>
                         <color key="backgroundColor" red="0.52498155830000004" green="0.60752159360000002" blue="0.78589695690000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="hqb-ce-88v"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oCE-UJ-x87" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
