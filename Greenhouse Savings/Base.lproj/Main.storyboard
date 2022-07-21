@@ -30,16 +30,8 @@
                                 </constraints>
                                 <color key="tintColor" red="0.48748323160000001" green="0.60338259380000003" blue="0.69028149230000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" cornerStyle="small">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Wallet">
-                                            <attributes>
-                                                <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" size="25" name="Futura-Medium"/>
-                                                <font key="NSOriginalFont" size="12" name="Helvetica"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="Wallet" cornerStyle="small">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                     <color key="baseBackgroundColor" red="0.58553677800000004" green="0.72138565779999997" blue="0.82296025750000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -54,16 +46,8 @@
                                 </constraints>
                                 <color key="tintColor" red="0.51436070529188493" green="0.67781120839745101" blue="0.6054433587321425" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" cornerStyle="small">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Learn More">
-                                            <attributes>
-                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" size="25" name="Futura-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="Learn More" cornerStyle="small">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                     <color key="baseBackgroundColor" red="0.58697831629999997" green="0.77263361220000004" blue="0.68683648109999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -78,16 +62,8 @@
                                 </constraints>
                                 <color key="tintColor" red="0.48748323160000001" green="0.60338259380000003" blue="0.69028149230000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" cornerStyle="small">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Resources">
-                                            <attributes>
-                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" size="25" name="Futura-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="Resources" cornerStyle="small">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                     <color key="baseBackgroundColor" red="0.58553677800000004" green="0.72138565779999997" blue="0.82296025750000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -125,52 +101,53 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hSR-UO-iRf">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hSR-UO-iRf">
                                 <rect key="frame" x="41" y="225" width="332" height="90"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="332" id="6EH-fC-wNB"/>
+                                    <constraint firstAttribute="height" constant="90" id="a2C-V0-qdt"/>
+                                </constraints>
                                 <color key="tintColor" red="0.48748323160000001" green="0.60338259380000003" blue="0.69028149230000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" cornerStyle="small">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Fast Fashion">
-                                            <attributes>
-                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" size="30" name="Futura-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="Fast Fashion" cornerStyle="small">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
                                     <color key="baseBackgroundColor" red="0.58553677800000004" green="0.72138565779999997" blue="0.82296025750000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="mRh-HZ-gMY" kind="show" id="WJ3-Ey-qXe"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vf8-Nb-RfB">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vf8-Nb-RfB">
                                 <rect key="frame" x="41" y="403" width="332" height="90"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="90" id="4a8-Cr-kcJ"/>
+                                    <constraint firstAttribute="width" constant="332" id="t1K-eF-HxS"/>
+                                </constraints>
                                 <color key="tintColor" red="0.48748323160000001" green="0.60338259380000003" blue="0.69028149230000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" cornerStyle="small">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Health + Wellness">
-                                            <attributes>
-                                                <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" size="30" name="Futura-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="Health + Wellness" cornerStyle="small">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
                                     <color key="baseBackgroundColor" red="0.58553677800000004" green="0.72138565779999997" blue="0.82296025750000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="r7E-gI-VDk" kind="show" id="77c-N7-gy6"/>
                                 </connections>
                             </button>
-                            <navigationBar contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mKW-nC-8Dq">
+                            <navigationBar contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mKW-nC-8Dq">
                                 <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="414" id="Vbo-FA-0hU"/>
+                                    <constraint firstAttribute="height" constant="44" id="Zgx-Eh-IYX"/>
+                                </constraints>
+                                <color key="barTintColor" red="0.52496546509999997" green="0.6075296402" blue="0.78186589480000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </textAttributes>
                                 <items>
                                     <navigationItem title="Learn More" id="qLA-hC-hhM">
-                                        <barButtonItem key="backBarButtonItem" title="&lt;" id="azw-AR-nZC"/>
-                                        <barButtonItem key="rightBarButtonItem" title="home" id="oZq-lL-NwY">
+                                        <barButtonItem key="leftBarButtonItem" title="back" image="arrow.backward" catalog="system" id="oZq-lL-NwY">
+                                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <connections>
                                                 <segue destination="BYZ-38-t0r" kind="show" id="tcw-eU-WCh"/>
                                             </connections>
@@ -178,20 +155,16 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JLO-3u-PCN">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JLO-3u-PCN">
                                 <rect key="frame" x="41" y="591" width="332" height="90"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="90" id="mFe-ZI-uf1"/>
+                                    <constraint firstAttribute="width" constant="332" id="nXX-TJ-9dE"/>
+                                </constraints>
                                 <color key="tintColor" red="0.4874832316200729" green="0.60338259381306869" blue="0.69028149229107483" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" cornerStyle="small">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Resources">
-                                            <attributes>
-                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" size="30" name="Futura-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="Resources" cornerStyle="small">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
                                     <color key="baseBackgroundColor" red="0.58553677800000004" green="0.72138565779999997" blue="0.82296025750000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -202,22 +175,21 @@
                         <viewLayoutGuide key="safeArea" id="5pI-SG-hSj"/>
                         <color key="backgroundColor" red="0.52498155830000004" green="0.60752159360000002" blue="0.78589695690000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="5pI-SG-hSj" firstAttribute="trailing" secondItem="JLO-3u-PCN" secondAttribute="trailing" constant="41" id="0Fx-PJ-SaT"/>
-                            <constraint firstItem="hSR-UO-iRf" firstAttribute="leading" secondItem="5pI-SG-hSj" secondAttribute="leading" constant="41" id="4RU-4Y-45T"/>
-                            <constraint firstItem="5pI-SG-hSj" firstAttribute="trailing" secondItem="Vf8-Nb-RfB" secondAttribute="trailing" constant="41" id="BTW-KX-4b8"/>
-                            <constraint firstItem="Vf8-Nb-RfB" firstAttribute="top" secondItem="hSR-UO-iRf" secondAttribute="bottom" constant="100" id="C4e-h0-FyU"/>
-                            <constraint firstItem="5pI-SG-hSj" firstAttribute="trailing" secondItem="hSR-UO-iRf" secondAttribute="trailing" constant="41" id="GEJ-vu-myN"/>
-                            <constraint firstItem="JLO-3u-PCN" firstAttribute="top" secondItem="Vf8-Nb-RfB" secondAttribute="bottom" constant="100" id="Nia-Uh-dZ1"/>
-                            <constraint firstItem="Vf8-Nb-RfB" firstAttribute="leading" secondItem="5pI-SG-hSj" secondAttribute="leading" constant="41" id="Qbl-w7-MCB"/>
-                            <constraint firstItem="JLO-3u-PCN" firstAttribute="leading" secondItem="5pI-SG-hSj" secondAttribute="leading" constant="41" id="Wu3-zw-FHs"/>
-                            <constraint firstItem="hSR-UO-iRf" firstAttribute="top" secondItem="mKW-nC-8Dq" secondAttribute="bottom" constant="137" id="e6y-Vp-n2Z"/>
+                            <constraint firstItem="Vf8-Nb-RfB" firstAttribute="leading" secondItem="5pI-SG-hSj" secondAttribute="leading" constant="41" id="5N1-4d-TDx"/>
+                            <constraint firstItem="mKW-nC-8Dq" firstAttribute="leading" secondItem="5pI-SG-hSj" secondAttribute="leading" id="62m-FU-7le"/>
+                            <constraint firstItem="JLO-3u-PCN" firstAttribute="leading" secondItem="5pI-SG-hSj" secondAttribute="leading" constant="41" id="Aqn-q1-CKf"/>
+                            <constraint firstItem="mKW-nC-8Dq" firstAttribute="top" secondItem="5pI-SG-hSj" secondAttribute="top" id="FKj-g5-VLq"/>
+                            <constraint firstItem="hSR-UO-iRf" firstAttribute="leading" secondItem="5pI-SG-hSj" secondAttribute="leading" constant="41" id="XGd-7N-xpe"/>
+                            <constraint firstItem="JLO-3u-PCN" firstAttribute="top" secondItem="Vf8-Nb-RfB" secondAttribute="bottom" constant="98" id="fEK-RU-dtF"/>
+                            <constraint firstItem="hSR-UO-iRf" firstAttribute="top" secondItem="mKW-nC-8Dq" secondAttribute="bottom" constant="137" id="kOV-rt-swi"/>
+                            <constraint firstItem="Vf8-Nb-RfB" firstAttribute="top" secondItem="hSR-UO-iRf" secondAttribute="bottom" constant="88" id="p9d-ta-sTb"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="hqb-ce-88v"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oCE-UJ-x87" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="18.840579710144929" y="750.66964285714278"/>
+            <point key="canvasLocation" x="14" y="866"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="iJb-T2-Td9">
@@ -227,31 +199,37 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <navigationBar contentMode="scaleToFill" ambiguous="YES" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gcQ-KE-4ni">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="414" id="7Qv-Ju-5bj"/>
+                                    <constraint firstAttribute="height" constant="44" id="cqG-K6-yZ1"/>
+                                </constraints>
+                                <color key="barTintColor" red="0.52496546509999997" green="0.6075296402" blue="0.78186589480000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="Health + Wellness" id="9YC-0v-RQf">
+                                        <barButtonItem key="leftBarButtonItem" title="back" image="arrow.backward" catalog="system" id="CwS-5k-vCG">
+                                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <connections>
+                                                <segue destination="tgp-kl-sAc" kind="show" id="H4K-Tg-yKE"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="s97-YD-nmI">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nlb-Uj-1Ok">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1300"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Health + Wellness" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zfx-0I-uTT">
-                                                <rect key="frame" x="23" y="20" width="240" height="48"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.99755865335464478" green="0.99755853414535522" blue="0.99755865335464478" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
-                                                <color key="textColor" red="0.031572654843330383" green="0.0032666681800037622" blue="0.012690948322415352" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Health + Wellness" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Yl-5Q-s5u">
-                                                <rect key="frame" x="87" y="776" width="240" height="48"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.99755865340000005" green="0.99755853409999995" blue="0.99755865340000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
-                                                <color key="textColor" red="0.031572654839999999" green="0.0032666681800000001" blue="0.012690948319999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="58V-B2-mE9">
-                                                <rect key="frame" x="23" y="149" width="353" height="121"/>
+                                                <rect key="frame" x="23" y="64" width="353" height="121"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">Wellness comes in many different forms. For example, exercise, taking care of one's skin, and eating well are all examples of wellness. Lately, the wellness industry has become an unachieveable luxury. </string>
                                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
@@ -259,7 +237,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vZE-VN-wpo">
-                                                <rect key="frame" x="20" y="345" width="375" height="244"/>
+                                                <rect key="frame" x="20" y="260" width="375" height="244"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">1. Clean Eating Trend 
 *"the Global gluten-free market is estimated to grow to $12.5 billion by 2024 at a rate of 9.5% frrom 2017 
@@ -272,11 +250,11 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="download" translatesAutoresizingMaskIntoConstraints="NO" id="ptd-kA-fAh">
-                                                <rect key="frame" x="62" y="579" width="291" height="227"/>
+                                                <rect key="frame" x="62" y="494" width="291" height="227"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WHAT IS THE WELLNESS INDUSTRY?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oYG-tN-a2R">
-                                                <rect key="frame" x="23" y="118" width="295" height="23"/>
+                                                <rect key="frame" x="23" y="33" width="295" height="23"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.99511724710464478" green="0.99511724710464478" blue="0.99511724710464478" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
@@ -284,7 +262,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="FACTORS PROMOTING THE INDUSTRY " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aUM-pb-51k">
-                                                <rect key="frame" x="23" y="278" width="317" height="23"/>
+                                                <rect key="frame" x="23" y="193" width="317" height="23"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.99511724710464478" green="0.99511724710464478" blue="0.99511724710464478" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
@@ -309,6 +287,7 @@
                         <viewLayoutGuide key="safeArea" id="pEj-3S-93v"/>
                         <color key="backgroundColor" red="0.52496546509999997" green="0.6075296402" blue="0.78186589480000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="gcQ-KE-4ni" firstAttribute="top" secondItem="pEj-3S-93v" secondAttribute="top" id="WUK-pi-tOc"/>
                             <constraint firstItem="nlb-Uj-1Ok" firstAttribute="height" secondItem="GIh-dg-2Iq" secondAttribute="height" multiplier="1.45089" id="xwJ-ns-L23"/>
                         </constraints>
                     </view>
@@ -316,7 +295,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wNd-f3-HUt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="18.840579710144929" y="1472.5446428571429"/>
+            <point key="canvasLocation" x="-351" y="1591"/>
         </scene>
         <!--Resources View Controller-->
         <scene sceneID="a18-NP-k80">
@@ -343,10 +322,12 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vO4-Zh-4EI">
-                                                <rect key="frame" x="44" y="234" width="128" height="130"/>
+                                                <rect key="frame" x="122" y="283" width="184" height="193"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" image="60"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="60">
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
+                                                </buttonConfiguration>
                                                 <connections>
                                                     <action selector="buttonResouceOne:" destination="dzF-ud-Yp0" eventType="touchUpInside" id="Xnu-Rb-exO"/>
                                                     <action selector="buttonResourceOne:" destination="OXQ-UW-LMB" eventType="touchUpInside" id="j5R-zG-SFm"/>
@@ -385,7 +366,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CsU-4t-EXh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="OXQ-UW-LMB" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="-983" y="68"/>
+            <point key="canvasLocation" x="-1257" y="68"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="3QR-oF-BpH">
@@ -395,14 +376,37 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TVO-ge-L4K">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                            <navigationBar contentMode="scaleToFill" ambiguous="YES" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fBD-w4-zMz">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="414" id="cCi-Bp-dIg"/>
+                                    <constraint firstAttribute="height" constant="44" id="jfz-CZ-7QW"/>
+                                </constraints>
+                                <color key="barTintColor" red="0.52496546509999997" green="0.6075296402" blue="0.78186589480000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="Fast Fashion" id="xhJ-hY-fuA">
+                                        <barButtonItem key="leftBarButtonItem" title="back" image="arrow.backward" catalog="system" id="JEZ-dY-B3h">
+                                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <connections>
+                                                <segue destination="tgp-kl-sAc" kind="show" id="psZ-LX-fIq"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TVO-ge-L4K">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aOy-XT-c7b">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1300"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uL0-NI-b2g">
-                                                <rect key="frame" x="17" y="121" width="356" height="23"/>
+                                                <rect key="frame" x="17" y="30" width="356" height="23"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.99755865335464478" green="0.99755853414535522" blue="0.99755865335464478" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <attributedString key="attributedText">
@@ -416,7 +420,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="THEN VS. NOW COMPARISON" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iqT-cO-lcn">
-                                                <rect key="frame" x="17" y="485" width="253" height="23"/>
+                                                <rect key="frame" x="17" y="424" width="253" height="23"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.99755865335464478" green="0.99755853414535522" blue="0.99755865335464478" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
@@ -424,7 +428,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jpV-du-dyj">
-                                                <rect key="frame" x="11" y="516" width="376" height="164"/>
+                                                <rect key="frame" x="11" y="455" width="376" height="138"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">*Then: 1 coat lasted 1 person 20 years 
 
@@ -434,11 +438,33 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-20 at 4.21.02 PM" translatesAutoresizingMaskIntoConstraints="NO" id="wzL-6Y-oLK">
-                                                <rect key="frame" x="63" y="709" width="240" height="128"/>
+                                                <rect key="frame" x="38" y="645" width="338" height="186"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WHAT IS FAST FASHION? " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1iC-W6-MT4">
+                                                <rect key="frame" x="17" y="228" width="213" height="23"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.99755865335464478" green="0.99755853414535522" blue="0.99755865335464478" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                                <color key="textColor" red="0.031572654843330383" green="0.0032666681800037622" blue="0.012690948322415352" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="* A phenomenon that causes extensive damage to the environment, exploits workers, and harms nature " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fVb-Zr-XTG">
+                                                <rect key="frame" x="17" y="259" width="365" height="82"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                                <color key="textColor" red="0.99755865335464478" green="0.99755853414535522" blue="0.99755865335464478" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The global fast fashion market is expected to grow from $91.23 billion in 2021 to $99.23 billion in 2022 (PR Newswire) " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hYq-PD-TuF">
+                                                <rect key="frame" x="17" y="61" width="356" height="116"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                                <color key="textColor" red="0.99755865335464478" green="0.99755853414535522" blue="0.99755865335464478" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="STF-wP-bPb">
-                                                <rect key="frame" x="139" y="1033" width="154" height="97"/>
+                                                <rect key="frame" x="130" y="921" width="154" height="97"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain">
@@ -452,36 +478,6 @@
                                                     <attributedString key="attributedSubtitle"/>
                                                 </buttonConfiguration>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WHAT IS FAST FASHION? " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1iC-W6-MT4">
-                                                <rect key="frame" x="17" y="316" width="213" height="23"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.99755865335464478" green="0.99755853414535522" blue="0.99755865335464478" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
-                                                <color key="textColor" red="0.031572654843330383" green="0.0032666681800037622" blue="0.012690948322415352" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="* A phenomenon that causes extensive damage to the environment, exploits workers, and harms nature " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fVb-Zr-XTG">
-                                                <rect key="frame" x="17" y="376" width="365" height="82"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
-                                                <color key="textColor" red="0.99755865335464478" green="0.99755853414535522" blue="0.99755865335464478" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The global fast fashion market is expected to grow from $91.23 billion in 2021 to $99.23 billion in 2022 (PR Newswire) " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hYq-PD-TuF">
-                                                <rect key="frame" x="17" y="164" width="356" height="116"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
-                                                <color key="textColor" red="0.99755865335464478" green="0.99755853414535522" blue="0.99755865335464478" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fast Fashion " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PbY-2G-ndv">
-                                                <rect key="frame" x="17" y="24" width="202" height="38"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.99951177835464478" green="0.99951165914535522" blue="0.99951177835464478" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="29"/>
-                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" red="0.52496546509999997" green="0.6075296402" blue="0.78186589480000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </view>
@@ -491,6 +487,7 @@
                                     <constraint firstItem="aOy-XT-c7b" firstAttribute="width" secondItem="rRX-pc-asc" secondAttribute="width" id="VGT-vd-MpV"/>
                                     <constraint firstItem="aOy-XT-c7b" firstAttribute="bottom" secondItem="gTK-Vc-Mi0" secondAttribute="bottom" id="dNh-2l-J3C"/>
                                     <constraint firstItem="aOy-XT-c7b" firstAttribute="leading" secondItem="gTK-Vc-Mi0" secondAttribute="leading" id="gal-Cu-PWX"/>
+                                    <constraint firstItem="aOy-XT-c7b" firstAttribute="top" secondItem="rRX-pc-asc" secondAttribute="top" constant="44" id="nQY-Z3-COL"/>
                                     <constraint firstItem="aOy-XT-c7b" firstAttribute="trailing" secondItem="gTK-Vc-Mi0" secondAttribute="trailing" id="nVy-R8-vsg"/>
                                 </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="gTK-Vc-Mi0"/>
@@ -500,10 +497,7 @@
                         <viewLayoutGuide key="safeArea" id="Mew-32-OZP"/>
                         <color key="backgroundColor" red="0.54269963499999996" green="0.60542434450000004" blue="0.76864713429999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="TVO-ge-L4K" firstAttribute="bottom" secondItem="Mew-32-OZP" secondAttribute="bottom" id="Ohs-KM-yxb"/>
-                            <constraint firstItem="TVO-ge-L4K" firstAttribute="top" secondItem="Mew-32-OZP" secondAttribute="top" id="RyJ-h6-A5G"/>
-                            <constraint firstItem="TVO-ge-L4K" firstAttribute="leading" secondItem="Mew-32-OZP" secondAttribute="leading" id="UX0-UT-UHL"/>
-                            <constraint firstItem="TVO-ge-L4K" firstAttribute="trailing" secondItem="Mew-32-OZP" secondAttribute="trailing" id="fpJ-JX-vpo"/>
+                            <constraint firstItem="fBD-w4-zMz" firstAttribute="top" secondItem="Mew-32-OZP" secondAttribute="top" id="hmF-Iq-ck8"/>
                             <constraint firstItem="aOy-XT-c7b" firstAttribute="height" secondItem="U5r-u2-h2o" secondAttribute="height" multiplier="1.45089" id="jN8-uD-C4V"/>
                         </constraints>
                     </view>
@@ -511,7 +505,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eIq-iA-Hs7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1008.6956521739131" y="750.66964285714278"/>
+            <point key="canvasLocation" x="388" y="1591"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="zCH-af-SEH">
@@ -520,23 +514,109 @@
                     <view key="view" contentMode="scaleToFill" id="Oow-Df-LCZ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VxX-iL-HIt">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="zn5-yN-86P"/>
+                                </constraints>
+                                <color key="barTintColor" red="0.7529790998" green="0.87455660099999999" blue="0.82560390230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem id="gLn-bY-Y89">
+                                        <barButtonItem key="leftBarButtonItem" title="back" image="arrow.backward" catalog="system" id="2t3-dJ-VZl">
+                                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="show" id="Rmw-W5-Puq"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="bXe-Q2-34O">
+                                <rect key="frame" x="0.0" y="359" width="414" height="503"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.7529790998" green="0.87455660099999999" blue="0.82560390230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="55" id="Mm1-sO-cmK">
+                                        <rect key="frame" x="0.0" y="44.5" width="414" height="55"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Mm1-sO-cmK" id="kwH-7x-TBG">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="55"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.93827015160000005" green="0.97257155179999999" blue="0.9521924853" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Wallet" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ooZ-Nd-tHe">
+                                <rect key="frame" x="36" y="146" width="130" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kpf-vD-DKv">
+                                <rect key="frame" x="36" y="234" width="250" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.93446999789999996" green="0.97257083649999998" blue="0.95219188929999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$$$" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YvS-06-Xfr">
+                                <rect key="frame" x="248" y="157" width="130" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.93446999789999996" green="0.97257083649999998" blue="0.95219188929999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Spending Limit" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pLA-DP-5JE">
+                                <rect key="frame" x="248" y="120" width="130" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xuq-MC-XlN">
+                                <rect key="frame" x="294" y="234" width="84" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="plus" catalog="system" title="Add">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="12N-f2-ryT"/>
                         <color key="backgroundColor" red="0.7529790998" green="0.87455660099999999" blue="0.82560390230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="VxX-iL-HIt" firstAttribute="trailing" secondItem="12N-f2-ryT" secondAttribute="trailing" id="Lpq-2H-fPl"/>
+                            <constraint firstItem="VxX-iL-HIt" firstAttribute="top" secondItem="12N-f2-ryT" secondAttribute="top" id="NxF-Gm-6F2"/>
+                            <constraint firstItem="VxX-iL-HIt" firstAttribute="leading" secondItem="12N-f2-ryT" secondAttribute="leading" id="Y90-OH-SLx"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Ckh-gl-pXP"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="loJ-Cz-PK1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="835" y="68"/>
+            <point key="canvasLocation" x="1193" y="68"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Vy0-ne-dmL"/>
+        <segue reference="77c-N7-gy6"/>
+        <segue reference="eCM-ow-OdC"/>
+        <segue reference="H4K-Tg-yKE"/>
+        <segue reference="tcw-eU-WCh"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="60" width="60" height="60"/>
         <image name="GHS final logo" width="1710" height="1710"/>
         <image name="Screen Shot 2022-07-20 at 4.21.02 PM" width="1470" height="772"/>
+        <image name="arrow.backward" catalog="system" width="128" height="98"/>
         <image name="download" width="302" height="167"/>
+        <image name="plus" catalog="system" width="128" height="113"/>
     </resources>
 </document>
