@@ -14,10 +14,16 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-  
-    
-  
-    
-    
+    @IBAction func buttonResourceOne(_ sender: Any) {
+        let url = URL (string: "https://www.kodewithklossy.com/")!
+            UIApplication.shared.open(url)
+
+    }
 }
+    
+    
+  
+    
+    
+
 
