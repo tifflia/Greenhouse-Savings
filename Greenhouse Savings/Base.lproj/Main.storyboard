@@ -4,7 +4,6 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -213,35 +212,6 @@
                                                 <color key="textColor" red="0.031572654843330383" green="0.0032666681800037622" blue="0.012690948322415352" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mGV-MZ-ajf">
-                                                <rect key="frame" x="23" y="107" width="323" height="36"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.99213725328445435" green="0.99436336755752563" blue="0.98643070459365845" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <attributedString key="attributedText">
-                                                    <fragment content="WHAT IS THE WELLNESS INDUSTRY?">
-                                                        <attributes>
-                                                            <color key="NSColor" systemColor="labelColor"/>
-                                                            <font key="NSFont" size="20" name="Futura-Medium"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                </attributedString>
-                                                <textInputTraits key="textInputTraits"/>
-                                            </textField>
-                                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YrF-zb-GLE">
-                                                <rect key="frame" x="20" y="303" width="332" height="35"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <attributedString key="attributedText">
-                                                    <fragment content="FACTORS PROMOTING INDUSTRY ">
-                                                        <attributes>
-                                                            <color key="NSColor" systemColor="labelColor"/>
-                                                            <font key="NSFont" size="19" name="Futura-Medium"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                </attributedString>
-                                                <textInputTraits key="textInputTraits"/>
-                                            </textField>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Health + Wellness" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Yl-5Q-s5u">
                                                 <rect key="frame" x="87" y="776" width="240" height="48"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -275,6 +245,22 @@
                                                 <rect key="frame" x="62" y="579" width="291" height="227"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WHAT IS THE WELLNESS INDUSTRY?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oYG-tN-a2R">
+                                                <rect key="frame" x="23" y="118" width="295" height="23"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.99511724710464478" green="0.99511724710464478" blue="0.99511724710464478" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="FACTORS PROMOTING THE INDUSTRY " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aUM-pb-51k">
+                                                <rect key="frame" x="23" y="278" width="317" height="23"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.99511724710464478" green="0.99511724710464478" blue="0.99511724710464478" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" red="0.52496546509999997" green="0.6075296402" blue="0.78186589480000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </view>
@@ -302,10 +288,10 @@
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="1472.5446428571429"/>
         </scene>
-        <!--View Controller-->
+        <!--Resources View Controller-->
         <scene sceneID="a18-NP-k80">
             <objects>
-                <viewController id="dzF-ud-Yp0" sceneMemberID="viewController">
+                <viewController id="dzF-ud-Yp0" customClass="ResourcesViewController" customModule="Greenhouse_Savings" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aCL-g6-0UR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -327,11 +313,12 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vO4-Zh-4EI">
-                                                <rect key="frame" x="120" y="325" width="67" height="31"/>
+                                                <rect key="frame" x="44" y="234" width="128" height="130"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="60"/>
                                                 <connections>
+                                                    <action selector="buttonResouceOne:" destination="dzF-ud-Yp0" eventType="touchUpInside" id="Xnu-Rb-exO"/>
                                                     <action selector="buttonResourceOne:" destination="OXQ-UW-LMB" eventType="touchUpInside" id="j5R-zG-SFm"/>
                                                 </connections>
                                             </button>
@@ -361,11 +348,14 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="wG9-eg-3B2"/>
+                    <connections>
+                        <outlet property="buttonResourceOne" destination="vO4-Zh-4EI" id="u9n-FZ-XCL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CsU-4t-EXh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="OXQ-UW-LMB" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="-1228" y="17"/>
+            <point key="canvasLocation" x="-1228.985507246377" y="16.741071428571427"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="3QR-oF-BpH">
@@ -514,11 +504,9 @@
         <segue reference="fdG-98-Is5"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="60" width="60" height="60"/>
         <image name="GHS final logo" width="1710" height="1710"/>
         <image name="Screen Shot 2022-07-20 at 4.21.02 PM" width="1470" height="772"/>
         <image name="download" width="302" height="167"/>
-        <systemColor name="labelColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
     </resources>
 </document>
