@@ -969,10 +969,10 @@ The business model of fast fashion caters towards people who are constantly up t
             </objects>
             <point key="canvasLocation" x="-704.34782608695662" y="1542.8571428571429"/>
         </scene>
-        <!--View Controller-->
+        <!--Spendings Table Not View Controller-->
         <scene sceneID="zCH-af-SEH">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="KJg-Ke-saN" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="KJg-Ke-saN" customClass="SpendingsTableNotViewController" customModule="Greenhouse_Savings" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Oow-Df-LCZ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1004,7 +1004,7 @@ The business model of fast fashion caters towards people who are constantly up t
                                 <color key="backgroundColor" red="0.68253719810000002" green="0.80790537600000001" blue="0.74668246510000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="separatorColor" red="0.68253719810000002" green="0.80790537600000001" blue="0.74668246510000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="46" id="Mm1-sO-cmK">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuseIdentifier" rowHeight="46" id="Mm1-sO-cmK">
                                         <rect key="frame" x="0.0" y="44.5" width="414" height="46"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Mm1-sO-cmK" id="kwH-7x-TBG">
@@ -1096,6 +1096,9 @@ The business model of fast fashion caters towards people who are constantly up t
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Ckh-gl-pXP"/>
+                    <connections>
+                        <outlet property="spendingsTable" destination="bXe-Q2-34O" id="ter-gT-1fB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="loJ-Cz-PK1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
