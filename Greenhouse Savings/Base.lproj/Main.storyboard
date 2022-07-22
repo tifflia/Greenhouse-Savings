@@ -322,7 +322,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vO4-Zh-4EI">
-                                                <rect key="frame" x="122" y="283" width="184" height="193"/>
+                                                <rect key="frame" x="-18" y="185" width="184" height="193"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="60">
@@ -331,6 +331,52 @@
                                                 <connections>
                                                     <action selector="buttonResouceOne:" destination="dzF-ud-Yp0" eventType="touchUpInside" id="Xnu-Rb-exO"/>
                                                     <action selector="buttonResourceOne:" destination="OXQ-UW-LMB" eventType="touchUpInside" id="j5R-zG-SFm"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gbs-80-Inl">
+                                                <rect key="frame" x="33" y="345" width="84" height="74"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="60"/>
+                                                <connections>
+                                                    <action selector="buttonResouceOne:" destination="dzF-ud-Yp0" eventType="touchUpInside" id="msh-ui-m4K"/>
+                                                    <action selector="buttonResourceTwo:" destination="dzF-ud-Yp0" eventType="touchUpInside" id="xFS-nR-SYG"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bxZ-ol-iO7">
+                                                <rect key="frame" x="25" y="452" width="84" height="74"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="60"/>
+                                                <connections>
+                                                    <action selector="buttonResourceThree:" destination="dzF-ud-Yp0" eventType="touchUpInside" id="yWR-cM-Stt"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ny2-bd-1I5">
+                                                <rect key="frame" x="26" y="570" width="84" height="74"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="60"/>
+                                                <connections>
+                                                    <action selector="buttonResouceFour:" destination="dzF-ud-Yp0" eventType="touchUpInside" id="11L-IF-SG4"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="twY-Iw-bs7">
+                                                <rect key="frame" x="27" y="676" width="84" height="74"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="60"/>
+                                                <connections>
+                                                    <action selector="buttonResouceFive:" destination="dzF-ud-Yp0" eventType="touchUpInside" id="DKa-pb-XfK"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w7s-aF-yGG">
+                                                <rect key="frame" x="19" y="792" width="84" height="74"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="60"/>
+                                                <connections>
+                                                    <action selector="resouceButtonSix:" destination="dzF-ud-Yp0" eventType="touchUpInside" id="8q9-Cf-3FQ"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -360,7 +406,12 @@
                     </view>
                     <navigationItem key="navigationItem" id="wG9-eg-3B2"/>
                     <connections>
+                        <outlet property="buttonResorceTwo" destination="gbs-80-Inl" id="HV2-Ad-SWA"/>
+                        <outlet property="buttonResouceFour" destination="Ny2-bd-1I5" id="FVg-Wt-JN5"/>
+                        <outlet property="buttonResourceFive" destination="twY-Iw-bs7" id="eym-rQ-0lM"/>
                         <outlet property="buttonResourceOne" destination="vO4-Zh-4EI" id="u9n-FZ-XCL"/>
+                        <outlet property="buttonResourceThree" destination="bxZ-ol-iO7" id="bdW-1n-8Sd"/>
+                        <outlet property="resourceButtonSix" destination="w7s-aF-yGG" id="f4F-dW-K00"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CsU-4t-EXh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -606,7 +657,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="77c-N7-gy6"/>
         <segue reference="eCM-ow-OdC"/>
         <segue reference="H4K-Tg-yKE"/>
         <segue reference="tcw-eU-WCh"/>
