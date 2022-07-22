@@ -9,49 +9,26 @@ import UIKit
 
 class SpendingsTableNotViewController: UIViewController {
 
+    @IBOutlet weak var spendingLimit: UITextField!
+    
+    @IBOutlet weak var editButton: UIButton!
     @IBOutlet weak var spendingsTable: UITableView!
-    var spendingsList : [testingSpending] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
 
-        spendingsList = createToDos()
+    @IBAction func editTapped(_ sender: Any) {
+        spendingLimit.isUserInteractionEnabled = true
+        spendingLimit.becomeFirstResponder()
     }
     
-    func createToDos() -> [testingSpending] {
-
-      let item1 = testingSpending()
-        item1.amount = 200
-        item1.note = "Groceries"
-
-      let item2 = testingSpending()
-        item2.amount = 10
-        item2.note = "Snacks"
-
-      return [item1, item2]
+    /*
+    func textFieldShouldReturn(_ spendingLimit: UITextField) {
+        self.view.endEditing(true)
     }
-
-    // MARK: - Table view data source
-
-    func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 0
-    }
-
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-      return spendingsList.count
-    }
-
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-
-        let toDo = spendingsList[indexPath.row]
-        
-        cell.textLabel?.text = toDo.note
-        
-        return cell
-    }
-
+     */
+    
     /*
     // MARK: - Navigation
 

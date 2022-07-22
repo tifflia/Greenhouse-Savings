@@ -19,7 +19,6 @@
 		98754B5028874DF400C0E09B /* Greenhouse_SavingsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98754B4F28874DF400C0E09B /* Greenhouse_SavingsUITests.swift */; };
 		98754B5228874DF400C0E09B /* Greenhouse_SavingsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98754B5128874DF400C0E09B /* Greenhouse_SavingsUITestsLaunchTests.swift */; };
 		98CC3C92288AAE9500C11DB0 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CC3C91288AAE9500C11DB0 /* AboutUsViewController.swift */; };
-		98CC3C9C288AC83E00C11DB0 /* testing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CC3C9B288AC83E00C11DB0 /* testing.swift */; };
 		98CC3C9E288ACDBE00C11DB0 /* SpendingsTableNotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CC3C9D288ACDBE00C11DB0 /* SpendingsTableNotViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -57,7 +56,6 @@
 		98754B4F28874DF400C0E09B /* Greenhouse_SavingsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Greenhouse_SavingsUITests.swift; sourceTree = "<group>"; };
 		98754B5128874DF400C0E09B /* Greenhouse_SavingsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Greenhouse_SavingsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		98CC3C91288AAE9500C11DB0 /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
-		98CC3C9B288AC83E00C11DB0 /* testing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testing.swift; sourceTree = "<group>"; };
 		98CC3C9D288ACDBE00C11DB0 /* SpendingsTableNotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendingsTableNotViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,7 +112,6 @@
 				98754B2F28874DEF00C0E09B /* ViewController.swift */,
 				98754B3128874DEF00C0E09B /* Main.storyboard */,
 				98CC3C9D288ACDBE00C11DB0 /* SpendingsTableNotViewController.swift */,
-				98CC3C9B288AC83E00C11DB0 /* testing.swift */,
 				98CC3C91288AAE9500C11DB0 /* AboutUsViewController.swift */,
 				8420ED512889F4890041C513 /* ResourcesViewController.swift */,
 				98754B3728874DF300C0E09B /* Assets.xcassets */,
@@ -278,7 +275,6 @@
 				98754B3028874DEF00C0E09B /* ViewController.swift in Sources */,
 				98754B2C28874DEF00C0E09B /* AppDelegate.swift in Sources */,
 				98754B3628874DEF00C0E09B /* Greenhouse_Savings.xcdatamodeld in Sources */,
-				98CC3C9C288AC83E00C11DB0 /* testing.swift in Sources */,
 				98CC3C92288AAE9500C11DB0 /* AboutUsViewController.swift in Sources */,
 				98754B2E28874DEF00C0E09B /* SceneDelegate.swift in Sources */,
 			);
