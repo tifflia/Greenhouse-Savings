@@ -1187,6 +1187,9 @@ The business model of fast fashion caters towards people who are constantly up t
                                     <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
                                     <color key="baseBackgroundColor" red="0.2077288628" green="0.6001296639" blue="0.45652383569999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="KJg-Ke-saN" kind="show" animates="NO" id="mJM-8R-w6C"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="51X-dZ-Zqg"/>
@@ -1220,7 +1223,8 @@ The business model of fast fashion caters towards people who are constantly up t
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="oV2-Jj-mMG"/>
+        <segue reference="RzL-oe-gJn"/>
+        <segue reference="mJM-8R-w6C"/>
         <segue reference="741-Vt-IFH"/>
         <segue reference="Rmw-W5-Puq"/>
     </inferredMetricsTieBreakers>

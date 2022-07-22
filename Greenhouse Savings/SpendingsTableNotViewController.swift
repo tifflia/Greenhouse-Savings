@@ -10,17 +10,31 @@ import UIKit
 class SpendingsTableNotViewController: UIViewController {
 
     @IBOutlet weak var spendingLimit: UITextField!
-    
     @IBOutlet weak var editButton: UIButton!
     @IBOutlet weak var spendingsTable: UITableView!
+    
+    var editOn = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
     }
 
     @IBAction func editTapped(_ sender: Any) {
-        spendingLimit.isUserInteractionEnabled = true
-        spendingLimit.becomeFirstResponder()
+        
+        if editOn == false {
+            editOn = true
+            editButton.setTitle("Done", for: .normal)
+            editButton.titleLabel?.font =  UIFont(name: "Futura", size: 20)
+            spendingLimit.isUserInteractionEnabled = true
+            spendingLimit.becomeFirstResponder()
+        } else {
+            editOn = false
+            editButton.setTitle("Edit", for: .normal)
+            editButton.titleLabel?.font =  UIFont(name: "Futura", size: 20)
+            spendingLimit.isUserInteractionEnabled = false
+            spendingLimit.resignFirstResponder()
+        }
+        
     }
     
     /*
