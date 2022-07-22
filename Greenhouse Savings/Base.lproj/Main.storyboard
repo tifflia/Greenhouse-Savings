@@ -21,7 +21,7 @@
                                     <constraint firstAttribute="height" constant="44" id="4Tb-ed-fDH"/>
                                     <constraint firstAttribute="width" constant="414" id="yDN-0n-Anx"/>
                                 </constraints>
-                                <color key="barTintColor" red="0.52496546509999997" green="0.6075296402" blue="0.78186589480000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="barTintColor" red="0.58553677800000004" green="0.72138565779999997" blue="0.82296025750000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <textAttributes key="titleTextAttributes">
                                     <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -127,7 +127,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.52496546509999997" green="0.6075296402" blue="0.78186589480000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.58553677800000004" green="0.72138565779999997" blue="0.82296025750000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstItem="CgD-fk-cWW" firstAttribute="top" secondItem="amt-Wg-Yxo" secondAttribute="bottom" constant="45" id="0tf-sa-3iX"/>
                                             <constraint firstAttribute="trailing" secondItem="4ss-0r-i3n" secondAttribute="trailing" constant="105" id="2hS-O0-nwL"/>
@@ -171,7 +171,7 @@
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="r12-Tm-A5a"/>
-                        <color key="backgroundColor" red="0.52496546509999997" green="0.6075296402" blue="0.78186589480000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.58553677800000004" green="0.72138565779999997" blue="0.82296025750000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="LbE-g6-zGx" firstAttribute="top" secondItem="r12-Tm-A5a" secondAttribute="top" id="001-3k-pel"/>
                             <constraint firstItem="7ZT-JT-NcY" firstAttribute="trailing" secondItem="r12-Tm-A5a" secondAttribute="trailing" id="4bs-lQ-K6i"/>
@@ -215,11 +215,11 @@
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="305" id="1TT-uI-uhW"/>
                                     <constraint firstAttribute="height" constant="65" id="SPb-vN-eDD"/>
                                 </constraints>
-                                <color key="tintColor" red="0.48748323160000001" green="0.60338259380000003" blue="0.69028149230000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.56022894379999999" green="0.66278922559999998" blue="0.61790341140000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Wallet" cornerStyle="small">
                                     <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
-                                    <color key="baseBackgroundColor" red="0.58553677800000004" green="0.72138565779999997" blue="0.82296025750000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="baseBackgroundColor" red="0.68253719810000002" green="0.80790537600000001" blue="0.74668246510000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="KJg-Ke-saN" kind="show" id="oV2-Jj-mMG"/>
@@ -247,11 +247,11 @@
                                     <constraint firstAttribute="height" constant="65" id="GYg-nl-Q2T"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="305" id="doP-wt-ycD"/>
                                 </constraints>
-                                <color key="tintColor" red="0.56152763366749769" green="0.66331743953203914" blue="0.61824991616376623" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.48678696160000001" green="0.60376757380000001" blue="0.68909233810000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="About Us" cornerStyle="small">
                                     <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
-                                    <color key="baseBackgroundColor" red="0.68342879732025907" green="0.80845040986032202" blue="0.75053666367839578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="baseBackgroundColor" red="0.58553677800000004" green="0.72138565779999997" blue="0.82296025750000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="WLk-F1-ADh" kind="show" id="AI9-CD-UlZ"/>
@@ -981,7 +981,7 @@ The business model of fast fashion caters towards people who are constantly up t
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="zn5-yN-86P"/>
                                 </constraints>
-                                <color key="barTintColor" red="0.7529790998" green="0.87455660099999999" blue="0.82560390230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="barTintColor" red="0.68253719810000002" green="0.80790537600000001" blue="0.74668246510000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <textAttributes key="titleTextAttributes">
                                     <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1000,7 +1000,7 @@ The business model of fast fashion caters towards people who are constantly up t
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="bXe-Q2-34O">
                                 <rect key="frame" x="0.0" y="359" width="414" height="503"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.7529790998" green="0.87455660099999999" blue="0.82560390230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.68253719810000002" green="0.80790537600000001" blue="0.74668246510000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="55" id="Mm1-sO-cmK">
                                         <rect key="frame" x="0.0" y="44.5" width="414" height="55"/>
@@ -1028,7 +1028,7 @@ The business model of fast fashion caters towards people who are constantly up t
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$$$" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YvS-06-Xfr">
-                                <rect key="frame" x="248" y="157" width="130" height="46"/>
+                                <rect key="frame" x="248" y="157" width="114" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.93446999789999996" green="0.97257083649999998" blue="0.95219188929999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -1052,7 +1052,7 @@ The business model of fast fashion caters towards people who are constantly up t
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="12N-f2-ryT"/>
-                        <color key="backgroundColor" red="0.7529790998" green="0.87455660099999999" blue="0.82560390230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.68253719810000002" green="0.80790537600000001" blue="0.74668246510000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="VxX-iL-HIt" firstAttribute="trailing" secondItem="12N-f2-ryT" secondAttribute="trailing" id="Lpq-2H-fPl"/>
                             <constraint firstItem="VxX-iL-HIt" firstAttribute="top" secondItem="12N-f2-ryT" secondAttribute="top" id="NxF-Gm-6F2"/>
@@ -1063,12 +1063,12 @@ The business model of fast fashion caters towards people who are constantly up t
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="loJ-Cz-PK1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1193" y="68"/>
+            <point key="canvasLocation" x="1192.753623188406" y="67.633928571428569"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="Orq-Ms-lzx"/>
-        <segue reference="vvy-FR-7aF"/>
+        <segue reference="Rmw-W5-Puq"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="60" width="60" height="60"/>
