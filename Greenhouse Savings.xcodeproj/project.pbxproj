@@ -18,6 +18,7 @@
 		98754B4628874DF400C0E09B /* Greenhouse_SavingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98754B4528874DF400C0E09B /* Greenhouse_SavingsTests.swift */; };
 		98754B5028874DF400C0E09B /* Greenhouse_SavingsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98754B4F28874DF400C0E09B /* Greenhouse_SavingsUITests.swift */; };
 		98754B5228874DF400C0E09B /* Greenhouse_SavingsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98754B5128874DF400C0E09B /* Greenhouse_SavingsUITestsLaunchTests.swift */; };
+		98CC3C92288AAE9500C11DB0 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CC3C91288AAE9500C11DB0 /* AboutUsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		98754B4B28874DF400C0E09B /* Greenhouse SavingsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Greenhouse SavingsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98754B4F28874DF400C0E09B /* Greenhouse_SavingsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Greenhouse_SavingsUITests.swift; sourceTree = "<group>"; };
 		98754B5128874DF400C0E09B /* Greenhouse_SavingsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Greenhouse_SavingsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		98CC3C91288AAE9500C11DB0 /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				98754B2D28874DEF00C0E09B /* SceneDelegate.swift */,
 				98754B2F28874DEF00C0E09B /* ViewController.swift */,
 				98754B3128874DEF00C0E09B /* Main.storyboard */,
+				98CC3C91288AAE9500C11DB0 /* AboutUsViewController.swift */,
 				8420ED512889F4890041C513 /* ResourcesViewController.swift */,
 				98754B3728874DF300C0E09B /* Assets.xcassets */,
 				98754B3928874DF300C0E09B /* LaunchScreen.storyboard */,
@@ -268,6 +271,7 @@
 				98754B3028874DEF00C0E09B /* ViewController.swift in Sources */,
 				98754B2C28874DEF00C0E09B /* AppDelegate.swift in Sources */,
 				98754B3628874DEF00C0E09B /* Greenhouse_Savings.xcdatamodeld in Sources */,
+				98CC3C92288AAE9500C11DB0 /* AboutUsViewController.swift in Sources */,
 				98754B2E28874DEF00C0E09B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
