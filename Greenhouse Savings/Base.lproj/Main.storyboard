@@ -44,7 +44,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TNN-74-0n7">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1450"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2022-07-22 at 10.23.43 AM" translatesAutoresizingMaskIntoConstraints="NO" id="gAW-mK-RF0">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2022-07-22 at 10.23.19 AM" translatesAutoresizingMaskIntoConstraints="NO" id="gAW-mK-RF0">
                                                 <rect key="frame" x="122" y="45" width="170" height="170"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="170" id="NkU-4u-Z5B"/>
@@ -1223,18 +1223,17 @@ The business model of fast fashion caters towards people who are constantly up t
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="RzL-oe-gJn"/>
         <segue reference="mJM-8R-w6C"/>
         <segue reference="741-Vt-IFH"/>
-        <segue reference="Rmw-W5-Puq"/>
+        <segue reference="vvy-FR-7aF"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="60" width="60" height="60"/>
         <image name="GHS final logo" width="1710" height="1710"/>
         <image name="Screen Shot 2022-07-20 at 4.21.02 PM" width="1470" height="772"/>
         <image name="Screen Shot 2022-07-21 at 8.35.29 PM" width="1114" height="1116"/>
-        <image name="Screen Shot 2022-07-22 at 10.08.43 AM" width="974" height="766"/>
-        <image name="Screen Shot 2022-07-22 at 10.23.43 AM" width="648" height="692"/>
+        <image name="Screen Shot 2022-07-22 at 10.08.43 AM" width="767" height="766"/>
+        <image name="Screen Shot 2022-07-22 at 10.23.19 AM" width="590" height="600"/>
         <image name="arrow.backward" catalog="system" width="128" height="98"/>
         <image name="download" width="302" height="167"/>
         <image name="pencil" catalog="system" width="128" height="113"/>
